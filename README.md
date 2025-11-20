@@ -25,8 +25,9 @@ To complete this lab, we will work in two phases. Do not begin phase #2 without 
 - **WITHIN** the function: Strictly prohibited to use console.log. The function must use return to return the raw numeric result.\
 - **OUTSIDE** the function: It is mandatory to use console.log to display the result that the function returned.
 
-## The algorithm
+## The algorithm 
 
+*This algorithm is a proposal for a hypothetical phase 3*
 1. Start process
 2. Start loop while the user wishes to continue
 3. Ask the user to select the type of operation to perform (+, -, *, /). Validate that the entered operation belongs to the allowed symbols; if not, display an error.
@@ -38,15 +39,18 @@ To complete this lab, we will work in two phases. Do not begin phase #2 without 
 9. Perform the corresponding operation.
 10. Display the result to the user.
 11. Give the user the option to perform another operation (yes/no or 1/0).
-12. End of loop.
-13. End process.
+12. If the user selects "yes", return to step 3; otherwise, continue to step 13.
+13. End of loop.
+14. End process.
 
 
 ## Pseudocode
 
+*This pseudocode is a proposal for a hypothetical phase 3*
+
 START
 
-    repeat ← "YES"   // works as a switch for the loop
+    repeat = "YES"   // works as a switch for the loop
 
     WHILE repeat = "YES" DO
 
